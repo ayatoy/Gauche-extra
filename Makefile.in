@@ -26,7 +26,7 @@ LOCAL_PATHS = "@LOCAL_PATHS@"
 PACKAGE   = Gauche-extra
 
 ARCHFILES = 
-SCMFILES  = $(srcdir)/extra/string.scm $(srcdir)/extra/list.scm $(srcdir)/extra/dev.scm $(srcdir)/extra/condition.scm
+SCMFILES  = $(srcdir)/extra/string.scm $(srcdir)/extra/list.scm $(srcdir)/extra/dev.scm $(srcdir)/extra/condition.scm $(srcdir)/extra/daemon.scm
 HEADERS   = 
 
 TARGET    = $(ARCHFILES)

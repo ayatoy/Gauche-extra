@@ -14,4 +14,7 @@
 (use extra.dev)
 (test-module 'extra.dev)
 
+(use extra.daemon)
+(test-module 'extra.daemon)
+
 (test-end)
